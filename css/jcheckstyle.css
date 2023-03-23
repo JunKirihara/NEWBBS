@@ -1,0 +1,98 @@
+*{
+  margin:0;
+  padding: 0;
+}
+html,body {
+  height: 100%;
+}
+#wrapper {
+  width: 100%;
+  position:relative;
+  min-height: 100%;
+}
+#header{
+  width: 100%;
+  height: 30px;
+  background-color:#1E90FF;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#header h1{
+  color:#fff;
+  font-weight:normal;
+  font-size:1.0rem;
+  text-align: center;
+}
+.caution {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 0.8rem;
+  color:red;
+}
+.container {
+  width:380px;
+  height:300px;
+  padding-top: 20px;
+  padding-bottom:50px;
+  margin:0 auto;
+  text-align:center;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  background-color:whitesmoke;
+}
+.item{
+  text-align: left;
+  margin:15px;
+  margin-left:10px;
+  padding:3px;
+  border-left: medium solid #1E90FF;
+}
+.item p{
+  font-size: 0.8rem;
+}
+#btn {
+  background-color: #3366FF;
+  padding:10px 0;
+  width: 200px;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #3366FF;
+  font-size: 0.8rem;
+}
+#footer{
+  width: 100%;
+  height: 30px;
+  background-color:#1E90FF;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#footer p{
+  color:#fff;
+  font-size:1.0rem;
+  text-align: center;
+}
+/*----------------------------------------------------------*/
+/* スマホ用のCSS */
+/*----------------------------------------------------------*/
+@media only screen and (max-width: 360px) {
+  #wrapper {
+    margin: 0 auto;
+  }
+  .caution {
+    font-size: 0.5rem;
+  }
+  .container {
+    width:70%;
+    margin-bottom: 20px;
+  }
+  .item p{
+    font-size: 0.5rem;
+  }
+}
